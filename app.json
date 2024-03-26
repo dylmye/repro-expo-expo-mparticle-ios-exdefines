@@ -3,14 +3,27 @@
     "name": "mparticle-ios-exdefines",
     "slug": "mparticle-ios-exdefines",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "android": {
       "package": "com.dylmye.mparticleiosexdefines"
     },
     "ios": {
       "bundleIdentifier": "com.dylmye.mparticleiosexdefines"
-    }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "extraPods": [
+              {
+                "name": "mParticle-Apple-SDK",
+                "version": "~> 8"
+              }
+            ]
+          }
+        }
+      ]
+    ]
   }
 }
