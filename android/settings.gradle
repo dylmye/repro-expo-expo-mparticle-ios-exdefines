@@ -1,4 +1,4 @@
-rootProject.name = 'mparticleiosexdefines'
+rootProject.name = 'mparticle-ios-exdefines'
 
 dependencyResolutionManagement {
   versionCatalogs {

@@ -1,4 +1,4 @@
-package com.mparticleiosexdefines
+package com.dylmye.mparticleiosexdefines
 
 import android.os.Build
 import android.os.Bundle
