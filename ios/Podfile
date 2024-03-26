@@ -53,6 +53,16 @@ target 'mparticleiosexdefines' do
     :flipper_configuration => flipper_config
   )
 
+  pre_install do |installer|
+    installer.pod_targets.each do |pod|
+      if pod.name == 'mParticle-Apple-SDK'
+        def pod.build_type;
+          Pod::BuildType.new(:linkage => :dynamic, :packaging => :framework)
+        end
+      end
+    end
+  end
+
   post_install do |installer|
     react_native_post_install(
       installer,

@@ -32,6 +32,9 @@ PODS:
     - hermes-engine/Pre-built (= 0.73.6)
   - hermes-engine/Pre-built (0.73.6)
   - libevent (2.1.12)
+  - mParticle-Apple-SDK (8.21.0):
+    - mParticle-Apple-SDK/mParticle (= 8.21.0)
+  - mParticle-Apple-SDK/mParticle (8.21.0)
   - RCT-Folly (2022.05.16.00):
     - boost
     - DoubleConversion
@@ -1087,6 +1090,7 @@ DEPENDENCIES:
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - hermes-engine (from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
+  - mParticle-Apple-SDK (~> 8)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCT-Folly/Fabric (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -1136,6 +1140,7 @@ SPEC REPOS:
   trunk:
     - fmt
     - libevent
+    - mParticle-Apple-SDK
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -1264,6 +1269,7 @@ SPEC CHECKSUMS:
   glog: c5d68082e772fa1c511173d6b30a9de2c05a69a2
   hermes-engine: 9cecf9953a681df7556b8cc9c74905de8f3293c0
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
+  mParticle-Apple-SDK: f29c2c81e5ca1c27cac0c67ff80289bcea5f0b86
   RCT-Folly: 7169b2b1c44399c76a47b5deaaba715eeeb476c0
   RCTRequired: ca1d7414aba0b27efcfa2ccd37637edb1ab77d96
   RCTTypeSafety: 678e344fb976ff98343ca61dc62e151f3a042292
@@ -1308,6 +1314,6 @@ SPEC CHECKSUMS:
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 805bf71192903b20fc14babe48080582fee65a80
 
-PODFILE CHECKSUM: aee5f5f3353a400ef6115a93dcb928631b978f30
+PODFILE CHECKSUM: 7e742130b4a514531a618103ef3e80f08d4444a5
 
 COCOAPODS: 1.15.2
